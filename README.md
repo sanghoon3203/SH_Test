@@ -30,16 +30,19 @@
 1. 클라우드 VM에 SSH로 연결 후 스크립트 다운로드
 먼저, 클라우드 VM에 SSH로 접속한 후 필요한 스크립트를 다운로드합니다.
 
-bash
+```bash
 복사
 ssh your_username@your_vm_ip_address
 wget https://raw.githubusercontent.com/KOlizer/syu-DataAnalyze/refs/heads/main/ApiServer/api_dev.sh
+```
 2. 환경 변수 설정
 다운로드한 api_dev.sh 파일을 열어 환경 변수를 설정합니다. vim 편집기를 사용하여 파일을 수정합니다.
 
+```
 bash
 복사
 vim api_dev.sh
+```
 파일 내에서 다음 변수들을 설정합니다:
 
 bash
@@ -58,19 +61,27 @@ LOGSTASH_KAFKA_ENDPOINT="{카프카 엔드포인트}"
 
 3. 스크립트 실행 권한 부여 및 실행
 환경 변수를 설정한 후, 스크립트에 실행 권한을 부여하고 실행합니다.
-
+```
 bash
 복사
 chmod +x api_dev.sh
 sudo ./api_dev.sh
+```
+
+
 4. 환경 변수 적용 및 추가 스크립트 실행
 모든 설정이 완료된 후, 환경 변수를 적용하고 추가적인 설정 스크립트를 실행합니다.
 
+```
 bash
 복사
 source /home/ubuntu/.bashrc
 sudo -E ./setup_db.sh
 sudo -E ./main_script.sh
+
+```
+
+
 설명:
 
 source /home/ubuntu/.bashrc: .bashrc 파일에 설정된 환경 변수를 현재 세션에 적용합니다.
