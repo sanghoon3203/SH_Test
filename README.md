@@ -32,7 +32,6 @@
 먼저, 클라우드 VM에 SSH로 접속한 후 필요한 스크립트를 다운로드합니다.
 
 ```bash
-복사
 ssh your_username@your_vm_ip_address
 wget https://raw.githubusercontent.com/KOlizer/syu-DataAnalyze/refs/heads/main/ApiServer/api_dev.sh
 ```
