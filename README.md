@@ -79,11 +79,13 @@ sudo -E ./main_script.sh
 ```
 
 
-설명:
+##설명:<br />
+<br />
 
-source /home/ubuntu/.bashrc: .bashrc 파일에 설정된 환경 변수를 현재 세션에 적용합니다.
+
+**source /home/ubuntu/.bashrc: .bashrc 파일에 설정된 환경 변수를 현재 세션에 적용합니다.
 sudo -E ./setup_db.sh: 환경 변수를 유지한 상태로 데이터베이스 설정 스크립트를 실행합니다.
-sudo -E ./main_script.sh: 환경 변수를 유지한 상태로 메인 스크립트를 실행합니다.
+sudo -E ./main_script.sh: 환경 변수를 유지한 상태로 메인 스크립트를 실행합니다.**
 
 
 필요한 기술 스택에 대한 logo는 [skills 폴더](/skills/)에서 다운로드 받을 수 있습니다.
