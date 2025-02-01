@@ -31,14 +31,19 @@
 <img src="https://user-images.githubusercontent.com/80824750/208456048-acbf44a8-cd71-4132-b35a-500047adbe1c.gif" width="400"/>
 </br>
 
-## Test용 topic, Data Catalog 실습용 topic- 총 2개 생성
+## Test용 topic, Data Catalog 실습용 topic 생성
 
-- **이름**: `TestTopic, DataCatalogTopic`
+- **이름**: `TestTopic`
 - **기본서브스크립션**: `생성 안함`
 - **토픽 메세지 보존 기간**: `0일 0시 10분`
 - **인스턴스유형**: `m2a.xlarge`
 - **설명**: `없음`
-
+--------------------------------------------------
+- **이름**: `DataCatalogTopic`
+- **기본서브스크립션**: `생성 안함`
+- **토픽 메세지 보존 기간**: `0일 0시 10분`
+- **인스턴스유형**: `m2a.xlarge`
+- **설명**: `없음`
 
 ### 프로토타입
 <img src="https://user-images.githubusercontent.com/80824750/208454673-0449e49c-57c6-4a6b-86cf-66c5b1e623dc.png">
