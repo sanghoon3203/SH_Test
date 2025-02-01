@@ -23,12 +23,14 @@
 - 프로젝트 아키텍쳐
 - 기술적 이슈와 해결 과정
 - 프로젝트 팀원
+
+  
 ## 1.PUB/SUB TOPIC 콘솔에서 생성
 - 콘솔에서 생성
   </br>
-<img src="https://user-images.githubusercontent.com/80824750/208456048-acbf44a8-cd71-4132-b35a-500047adbe1c.gif" width="400"/>|
-- Test용 topic, Data Catalog 실습용 topic- 총 2개 생성
-## Pub/Sub 토픽 생성
+<img src="https://user-images.githubusercontent.com/80824750/208456048-acbf44a8-cd71-4132-b35a-500047adbe1c.gif" width="400"/>
+</br>
+## Test용 topic, Data Catalog 실습용 topic- 총 2개 생성
 
 - **이름**: `TestTopic, DataCatalogTopic`
 - **기본서브스크립션**: `생성 안함`
