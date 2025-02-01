@@ -30,6 +30,7 @@
   </br>
 <img src="https://user-images.githubusercontent.com/80824750/208456048-acbf44a8-cd71-4132-b35a-500047adbe1c.gif" width="400"/>
 </br>
+
 ## Test용 topic, Data Catalog 실습용 topic- 총 2개 생성
 
 - **이름**: `TestTopic, DataCatalogTopic`
